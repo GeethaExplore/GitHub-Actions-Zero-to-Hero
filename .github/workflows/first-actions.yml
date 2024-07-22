@@ -1,10 +1,10 @@
-name: My First GeetaGitHub Actions
+name: My First GitHub Actions
 
 on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       matrix:
